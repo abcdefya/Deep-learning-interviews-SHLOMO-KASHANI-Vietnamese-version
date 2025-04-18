@@ -1,6 +1,6 @@
 ﻿# Dự án dịch: "Deep Learning Interviews"
 
-[![XEM TẠI ĐÂY](https://img.shields.io/badge/Overleaf-XEM%20B%E1%BA%A2N%20D%E1%BB%8ACH-green)](https://www.overleaf.com/read/grpxjzpftspk#5fe0ba)
+[![XEM TẠI ĐÂY](https://img.shields.io/badge/Overleaf-XEM%20B%E1%BA%A2N%20D%E1%BB%8ACH-green)](https://www.overleaf.com/read/grpxjzpftspk#5fe0ba).
 
 ## 📚 Giới thiệu
 
