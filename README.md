@@ -1,62 +1,72 @@
-﻿# Deep-learning-interviews-SHLOMO-KASHANI-Vietnamese-version
-XEM TẠI ĐÂY: https://www.overleaf.com/read/grpxjzpftspk#5fe0ba
-📚 Dịch Sách: Deep Learning Interviews
-Xin chào!
-Chào bạn đến với dự án dịch "Deep Learning Interviews" (Shlomo Kashani, 2021) sang tiếng Việt! 🎉 Cuốn sách này là kho tàng với hàng trăm bài toán Học Sâu kèm lời giải, giúp sinh viên, nhà nghiên cứu, và người chuẩn bị phỏng vấn AI tự tin hơn. Chúng mình muốn mang kiến thức này đến cộng đồng Việt Nam qua bản dịch dễ hiểu! 🚀
-🎯 Mục tiêu
+﻿# Dự án dịch: "Deep Learning Interviews"
 
-Dịch thuật: Chuyển ngữ chính xác, lưu dưới dạng LaTeX (tương thích Overleaf).
-Cộng tác: Mời bạn cùng góp sức để bản dịch thêm hoàn hảo.
-Tiến độ: Theo dõi và cập nhật quá trình dịch.
+[![XEM TẠI ĐÂY](https://img.shields.io/badge/Overleaf-XEM%20B%E1%BA%A2N%20D%E1%BB%8ACH-green)](https://www.overleaf.com/read/grpxjzpftspk#5fe0ba)
 
+## 📚 Giới thiệu
 
-Sách được thiết kế cho sinh viên Thạc sĩ/Tiến sĩ và người đi phỏng vấn, với các bài toán thực tế và câu hỏi sâu sắc. 
-📑 Cấu trúc sách
+Chào mừng bạn đến với dự án dịch "Deep Learning Interviews" (Shlomo Kashani, 2021) sang tiếng Việt! 🎉
+
+Cuốn sách này là kho tàng với hàng trăm bài toán Học Sâu kèm lời giải, giúp sinh viên, nhà nghiên cứu, và người chuẩn bị phỏng vấn AI tự tin hơn. Chúng mình muốn mang kiến thức này đến cộng đồng Việt Nam qua bản dịch dễ hiểu! 🚀
+
+## 🎯 Mục tiêu
+
+- **Dịch thuật**: Chuyển ngữ chính xác, lưu dưới dạng LaTeX (tương thích Overleaf)
+- **Cộng tác**: Mời bạn cùng góp sức để bản dịch thêm hoàn hảo
+- **Tiến độ**: Theo dõi và cập nhật quá trình dịch
+
+Sách được thiết kế cho sinh viên Thạc sĩ/Tiến sĩ và người đi phỏng vấn, với các bài toán thực tế và câu hỏi sâu sắc.
+
+## 📑 Cấu trúc sách
+
 Cuốn sách được chia thành các phần chính sau:
 
-Phần I: Rusty Nail
-Hướng dẫn sử dụng sách
+### Phần I: Rusty Nail
+- Hướng dẫn sử dụng sách
 
+### Phần II: Probabilistic Programming & Bayesian DL
+- Kỳ vọng, Phương sai, Xác suất có điều kiện
+- Quy tắc Bayes, Ước lượng Hợp lý Tối đa
 
-Phần II: Probabilistic Programming & Bayesian DL
-Kỳ vọng, Phương sai, Xác suất có điều kiện, Quy tắc Bayes, Ước lượng Hợp lý Tối đa, v.v.
+### Phần III: High School
+- Lý thuyết Thông tin: Entropy, KL Divergence, Information Gain
 
+### Phần IV: Bachelors
+- Tính toán & Vi phân Thuật toán: Backpropagation, Gradient Descent, Neural Networks
+- Ensemble Learning: Bagging, Boosting, Stacking
+- Trích xuất Đặc trưng CNN: Fine-tuning, Neural Style Transfer
+- Học Sâu: Cross Validation, Perceptrons, Activation Functions, Hyperparameters
 
-Phần III: High School
-Lý thuyết Thông tin: Entropy, KL Divergence, Information Gain, v.v.
+### Phần V: Practice Exam
+- Bài kiểm tra mô phỏng phỏng vấn: Perceptrons, CNN Layers, Logistic Regression
 
+### Phần VI: Volume Two (Kế hoạch)
+- Thiết kế hệ thống AI, CNN nâng cao, NLP, GANs, RL
 
-Phần IV: Bachelors
-Tính toán & Vi phân Thuật toán: Backpropagation, Gradient Descent, Neural Networks
-Ensemble Learning: Bagging, Boosting, Stacking
-Trích xuất Đặc trưng CNN: Fine-tuning, Neural Style Transfer
-Học Sâu: Cross Validation, Perceptrons, Activation Functions, Hyperparameters
+## 🗂 Cấu trúc Repo
 
-
-Phần V: Practice Exam
-Bài kiểm tra mô phỏng phỏng vấn: Perceptrons, CNN Layers, Logistic Regression, v.v.
-
-
-Phần VI: Volume Two (Kế hoạch)
-Thiết kế hệ thống AI, CNN nâng cao, NLP, GANs, RL, v.v.
-
-
-
-🗂 Cấu trúc Repo
 Đang cập nhật
-<!-- docs/: Bản dịch LaTeX theo chương, sẵn cho Overleaf.
-progress.md: Nhật ký tiến độ dịch.
-CONTRIBUTING.md: Hướng dẫn đóng góp (sắp có). -->
+<!-- 
+- docs/: Bản dịch LaTeX theo chương, sẵn cho Overleaf
+- progress.md: Nhật ký tiến độ dịch
+- CONTRIBUTING.md: Hướng dẫn đóng góp (sắp có)
+-->
 
-<!-- 🤝 Tham gia nào!
-<!-- Muốn cùng dịch sách? Dễ thôi: -->
+<!--
+## 🤝 Tham gia đóng góp
 
-<!-- Fork repo này.
-Dịch hoặc sửa file LaTeX (Overleaf-friendly!).
-Gửi Pull Request để tụi mình xem. -->
+Muốn cùng dịch sách? Dễ thôi:
 
-<!-- Có ý tưởng? Mở Issue để trò chuyện nhé! 💬 --> 
-<!-- 🙌 Cảm ơn bạn! -->
-Cảm ơn bạn đã ủng hộ và góp ý!  🌟
+1. Fork repo này
+2. Dịch hoặc sửa file LaTeX (Overleaf-friendly!)
+3. Gửi Pull Request để tụi mình xem
 
-📝 Bản dịch phi lợi nhuận, tôn trọng bản quyền tác giả Shlomo Kashani.
+Có ý tưởng? Mở Issue để trò chuyện nhé! 💬
+-->
+
+## 🙌 Lời cảm ơn
+
+Cảm ơn bạn đã ủng hộ và góp ý! 🌟
+
+---
+
+📝 *Bản dịch phi lợi nhuận, tôn trọng bản quyền tác giả Shlomo Kashani.*
