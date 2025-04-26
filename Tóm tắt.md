@@ -4,9 +4,9 @@
 
 **Khái niệm cốt lõi:**
 - **Hàm Sigmoid/Softmax:** Ánh xạ phi tuyến từ $\mathbb{R} \to [0,1]$ với $\sigma(z) = \frac{1}{1 + e^{-z}}$, softmax là dạng tổng quát $\text{softmax}(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}}$
-- **Tỷ số chênh (Odds ratio) & Log-odds:** $\text{odds} = \frac{p}{1-p}$, $\text{logit}(p) = \ln\frac{p}{1-p}$ - cơ sở của mô hình phân biệt (discriminative model)
+- **Tỷ lệ cược (Odds ratio) & Log-odds:** $\text{odds} = \frac{p}{1-p}$, $\text{logit}(p) = \ln\frac{p}{1-p}$ - cơ sở của mô hình phân biệt (discriminative model)
 - **Hàm mất mát (Binary Cross-entropy):** $\mathcal{L}(\hat{y}, y) = -[y\ln(\hat{y}) + (1-y)\ln(1-\hat{y})]$
-- **Tối ưu hóa:** Gradient descent với cập nhật tham số $\theta := \theta - \eta\nabla_{\theta}\mathcal{L}(\theta)$
+- **Tối ưu hóa:** Sử dụng thuật toán Gradient descent với cách cập nhật tham số $\theta := \theta - \eta\nabla_{\theta}\mathcal{L}(\theta)$
 - **Mô hình tuyến tính tổng quát (GLM):** Bao gồm (i) phân phối xác suất (Bernoulli/Binomial), (ii) hàm tuyến tính đầu vào $\eta = X\beta$, (iii) hàm liên kết (logit)
 - **Các chỉ số đánh giá:** Ma trận nhầm lẫn (confusion matrix), độ chính xác (accuracy), độ chính xác (precision), độ thu hồi (recall), điểm F1 (F1-score), ROC-AUC, log-loss
 
@@ -20,7 +20,7 @@
 ## 2. LẬP TRÌNH XÁC SUẤT & HỌC SÂU BAYESIAN
 
 **Khái niệm cốt lõi:**
-- **Định lý Bayes:** $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$ - cập nhật niềm tin tiên nghiệm (prior beliefs) với bằng chứng (evidence)
+- **Định lý Bayes:** $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$ - cập nhật thông tin tiên nghiệm (prior beliefs) với dữ liệu đã được chứng thực (evidence)
 - **Ước lượng hợp lý cực đại (MLE):** $\hat{\theta}_{\text{MLE}} = \arg\max_{\theta} \prod_{i=1}^{n}P(x_i|\theta)$ hoặc $\arg\max_{\theta} \sum_{i=1}^{n}\ln P(x_i|\theta)$
 - **Ước lượng hậu nghiệm cực đại (MAP):** $\hat{\theta}_{\text{MAP}} = \arg\max_{\theta} P(\theta|X) = \arg\max_{\theta} [P(X|\theta)P(\theta)]$
 - **Phân phối liên hợp (Conjugate priors):** Cặp phân phối tiên nghiệm-hậu nghiệm cùng họ: Beta-Binomial, Dirichlet-Multinomial, Normal-Normal
@@ -38,7 +38,7 @@
 
 **Khái niệm cốt lõi:**
 - **Entropy Shannon:** $H(X) = -\sum_{x \in \mathcal{X}} p(x)\log_2 p(x)$ - đo lường nội dung thông tin/độ không chắc chắn
-- **Phân kỳ Kullback-Leibler (KL Divergence):** $D_{KL}(P||Q) = \sum_{x \in \mathcal{X}}P(x)\log\frac{P(x)}{Q(x)}$ - độ đo bất đối xứng của sự khác biệt phân phối
+- **Độ đo phân kỳ Kullback-Leibler (KL Divergence):** $D_{KL}(P||Q) = \sum_{x \in \mathcal{X}}P(x)\log\frac{P(x)}{Q(x)}$ - độ đo bất đối xứng của sự khác biệt giữa 2 phân phối
 - **Thông tin tương hỗ (MI):** $I(X;Y) = H(X) - H(X|Y) = H(Y) - H(Y|X) = D_{KL}(P_{X,Y}||P_X \otimes P_Y)$
 - **Bất đẳng thức Jensen:** Với hàm $f$ lồi, $f(\mathbb{E}[X]) \leq \mathbb{E}[f(X)]$ - nền tảng cho nhiều giới hạn trong tối ưu hóa
 - **Entropy có điều kiện:** $H(X|Y) = -\sum_{x,y} p(x,y)\log p(x|y)$ - entropy còn lại sau khi quan sát Y
@@ -46,7 +46,7 @@
 **Ứng dụng chính:**
 - **Tối ưu hóa mạng nơ-ron:** Cross-entropy và KL-divergence làm hàm mất mát (loss functions)
 - **Nút thắt thông tin (Information Bottleneck):** Cân bằng giữa nén và dự đoán trong học biểu diễn (representation learning)
-- **Lý thuyết tốc độ-méo mó (Rate-distortion):** Lý thuyết mã hóa và nén có mất mát với ứng dụng trong VAEs
+- **Lý thuyết tốc độ-biến dạng, nhiễu thông tin (Rate-distortion):** Lý thuyết mã hóa và nén có mất mát với ứng dụng trong VAEs
 - **Lựa chọn đặc trưng:** Tối đa hóa thông tin tương hỗ giữa đặc trưng và nhãn mục tiêu trong dữ liệu nhiều chiều
 - **Điều chuẩn dựa trên lý thuyết thông tin:** Kiểm soát luồng thông tin trong GAN và thích ứng miền (domain adaptation)
 
