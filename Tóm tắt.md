@@ -1,5 +1,7 @@
 # TÓM TẮT SÁCH: DEEP LEARNING INTERVIEWS
-
+Ở mỗi chương, tác giả chia ra làm 2 phần lớn
+- I. Các câu hỏi: Ở phần này sẽ chia ra các phần nhỏ hơn theo chủ đề câu hỏi.
+- II. Lời giải: Tương tự như phần câu hỏi.
 ## 1. HỒI QUY LOGISTIC (LOGISTIC REGRESSION)
 
 **Khái niệm cốt lõi:**
@@ -121,13 +123,3 @@ Bao gồm các bài toán phỏng vấn chuyên sâu về:
 - Cảnh quan tối ưu hóa (optimization landscapes) và kỹ thuật chuẩn hóa
 - Chiến lược điều chuẩn và phương pháp hiệu chuẩn (calibration)
 - Cân nhắc triển khai mô hình: lượng tử hóa (quantization), cắt tỉa (pruning), chưng cất (distillation)
-
----
-
-## ĐIỂM QUAN TRỌNG CHO PHỎNG VẤN:
-
-1. **Kết nối lý thuyết-thực tiễn:** Liên kết công thức toán học với triển khai thực tế và trường hợp sử dụng
-2. **Hiểu quy trình end-to-end:** Từ quản lý dữ liệu/tiền xử lý đến triển khai mô hình và giám sát
-3. **Phân tích đánh đổi:** Diễn giải cân bằng độ lệch-phương sai (bias-variance), độ phức tạp tính toán vs. độ chính xác, khả năng giải thích vs. hiệu suất
-4. **Tư duy phản biện:** Đánh giá giả định mô hình, hạn chế và các trường hợp thất bại với chuyên môn lĩnh vực
-5. **Nhận thức nghiên cứu:** Thể hiện kiến thức về các phương pháp tiên tiến và tiến bộ gần đây trong lĩnh vực
