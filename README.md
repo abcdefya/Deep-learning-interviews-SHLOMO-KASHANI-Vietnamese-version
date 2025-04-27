@@ -41,8 +41,8 @@ Cuốn sách được chia thành các phần chính sau:
 
 **Khái niệm cốt lõi:**
 - **Định lý Bayes:** $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$ - cập nhật thông tin tiên nghiệm (prior beliefs) với dữ liệu đã được chứng thực (evidence)
-- **Ước lượng hợp lý cực đại (MLE):** $ \hat{\theta}_{\text{MLE}} = \arg\max_{\theta} \prod_{i=1}^{n}P(x_i|\theta)$ hoặc $\arg\max_{\theta} \sum_{i=1}^{n}\ln P(x_i|\theta)$
-- **Ước lượng hậu nghiệm cực đại (MAP):** $\hat{\theta}_{\text{MAP}} = \arg\max_{\theta} P(\theta|X) = \arg\max_{\theta} [P(X|\theta)P(\theta)]$
+- **Ước lượng hợp lý cực đại (MLE):
+- **Ước lượng hậu nghiệm cực đại (MAP):
 - **Phân phối liên hợp (Conjugate priors):** Cặp phân phối tiên nghiệm-hậu nghiệm cùng họ: Beta-Binomial, Dirichlet-Multinomial, Normal-Normal
 - **Ma trận thông tin Fisher:** $\mathcal{I}(\theta) = \mathbb{E}\left[\left(\frac{\partial}{\partial\theta}\ln f(X;\theta)\right)^2\right]$ - đo lường độ cong của log-likelihood
 - **Suy luận biến phân (Variational Inference):** Xấp xỉ phân phối hậu nghiệm $p(z|x)$ với phân phối $q_{\phi}(z|x)$ bằng cách tối thiểu KL divergence
@@ -146,6 +146,8 @@ Cuốn sách được chia thành các phần chính sau:
 - docs/: Bản dịch LaTeX theo chương, sẵn cho Overleaf
 - progress.md: Nhật ký tiến độ dịch
 - CONTRIBUTING.md: Hướng dẫn đóng góp (sắp có)
+- **Ước lượng hợp lý cực đại (MLE):** $ \hat{\theta}_{\text{MLE}} = \arg\max_{\theta} \prod_{i=1}^{n}P(x_i|\theta)$ hoặc $\arg\max_{\theta} \sum_{i=1}^{n}\ln P(x_i|\theta)$
+- **Ước lượng hậu nghiệm cực đại (MAP):** $\hat{\theta}_{\text{MAP}} = \arg\max_{\theta} P(\theta|X) = \arg\max_{\theta} [P(X|\theta)P(\theta)]$
 -->
 
 <!--
