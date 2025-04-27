@@ -1,6 +1,6 @@
 ﻿# Dự án dịch: "Deep Learning Interviews"
 
--[XEM TẠI ĐÂY](https://www.overleaf.com/read/grpxjzpftspk#5fe0ba)
+-[XEM TẠI ĐÂY](https://www.overleaf.com/read/scjxpdxbtggp#9c5f82)
 
 ## 📚 Giới thiệu
 🎉 Cuốn sách này là kho tàng với hàng trăm bài toán Học Sâu kèm lời giải, giúp sinh viên, nhà nghiên cứu, và người chuẩn bị phỏng vấn AI tự tin hơn. Chúng mình muốn mang kiến thức này đến cộng đồng Việt Nam qua bản dịch dễ hiểu! 🚀
