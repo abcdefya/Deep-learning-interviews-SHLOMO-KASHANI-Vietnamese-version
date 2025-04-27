@@ -13,8 +13,11 @@
 Sách được thiết kế cho sinh viên Thạc sĩ/Tiến sĩ và người đi phỏng vấn, với các bài toán thực tế và câu hỏi sâu sắc.
 
 ## 📑 Cấu trúc sách
-
-Cuốn sách được chia thành các phần chính sau:
+Ở mỗi chương tác giả sẽ chia làm hai phần lớn
+- I. Các câu hỏi/bài tập: Tại đây, có thể chia làm các mục nhỏ hơn theo chủ đề.
+- II. Lời giải/đáp án: Tương tự, sẽ được chia làm các mục nhỏ hơn.
+  
+Cuốn sách bao gồm các phần chính sau:
 
 ### Phần I: Rusty Nail
 - Hướng dẫn sử dụng sách
