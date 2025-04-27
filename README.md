@@ -108,7 +108,6 @@ Cuốn sách được chia thành các phần chính sau:
 **Khái niệm cốt lõi:**
 - **Embedding CNN đã huấn luyện trước:** Trích xuất đặc trưng từ các lớp trung gian của mô hình được huấn luyện trên ImageNet như VGG, ResNet, EfficientNet
 - **Mô hình học chuyển giao (Transfer Learning):** Trích xuất đặc trưng, tinh chỉnh (fine-tuning), đóng băng tiến trình (progressive freezing), và chuyển giao kiến thức (knowledge distillation)
-- **Chuyển giao phong cách thần kinh (NST):** Bài toán tối ưu hóa với $\mathcal{L}_{\text{total}} = \alpha\mathcal{L}_{\text{content}} + \beta\mathcal{L}_{\text{style}}$ sử dụng ma trận Gram cho biểu diễn phong cách
 - **Trực quan hóa kích hoạt lớp:** Độ nhạy cảm che khuất (occlusion sensitivity), ánh xạ kích hoạt lớp theo gradient (Grad-CAM)
 
 **Ứng dụng chính:**
